@@ -101,3 +101,47 @@ footer a {
     color: rgb(48,76,90);
     text-decoration: none;
 }
+.sign-up-content {
+    margin: auto;
+    width: 22%;
+    height: 650px;
+}
+label {
+    border: 1px solid  rgb(197,115,44);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 115, 44);
+    /* box-shadow: 2px 2px 2px 2px gray; */
+}
+input {
+    border: 1px solid  rgb(201, 112, 34);
+    border-radius: 10px;
+    padding: 5px 10px 5px 20px;
+}
+select {
+    border: 1px solid  rgb(201, 112, 34);
+    border-radius: 10px;
+    padding: 5px 10px 5px 20px;
+}
+.labels {
+    margin-top: 50px;
+}
+.labels1 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nav2 {
+    box-shadow: 5px 5px 5px 5px gray;
+}
