@@ -185,3 +185,74 @@ select {
 .user-labels1 {
     margin-top: 80px;
 }
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 500px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 10px;
+}
+.user-profile h2 {
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(48,76,90);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name-lines {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* margin: 0px 20px; */
+    font-size: 10px;
+    width: 20%;
+    font-weight: bold;
+    
+}
+.name-lines h3 {
+    border: 1px solid rgb(197,115,44);
+    border-radius: 5px;
+    padding: 0px 2px;
+    background-color: rgb(197,115,44);
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.passport {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 350px;
+    width: 20%;
+    height: 100px;
+    border: 2px solid rgb(197, 115, 44);
+    border-radius: 10px;
+}
+.passport p {
+    margin: auto;
+    text-align: center;
+}
+.name-lines1 {
+    display: flex;
+    flex-direction: row;
+}
+.name-lines2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* margin: 0px 20px; */
+    font-size: 10px;
+    width: 50%;
+    font-weight: bold;
+    
+}
+.name-lines2 h3 {
+    border: 1px solid rgb(197,115,44);
+    border-radius: 5px;
+    padding: 0px 5px;
+    /* background-color: rgb(197,115,44); */
+    /* color: rgb(255, 255, 255); */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
