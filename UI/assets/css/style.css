@@ -152,9 +152,36 @@ select {
 }
 .sign-in-content {
     margin: auto;
-    width: 24%;
+    width: 28%;
     height: 650px;
 }
 .user-info {
     margin-top: 90px;
+}
+.create-button {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.create-account-content {
+    background-image: url(../img/Living-room.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+}
+.background-image {
+    min-height: 650px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.user-labels {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+}
+.user-labels1 {
+    margin-top: 80px;
 }
