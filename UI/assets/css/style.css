@@ -71,6 +71,10 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
 }
+.create-button {
+    width: 334px;
+    font-size: small;
+}
 button a{
     font-weight: bold;
     font-size: large;
@@ -82,9 +86,11 @@ button {
     color: rgb(255, 255, 255);
     background-color: rgb(197,115,44);
     border: 1px solid rgb(197,115,44);
-    border-radius: 10px;
     margin: 0px 0px;
-    padding: 5px 10px;
+    cursor: pointer;
+    padding: 20px 113px;
+    font-size: larger;
+    font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 footer {
@@ -102,65 +108,126 @@ footer a {
     text-decoration: none;
 }
 .sign-up-content {
-    margin: auto;
-    width: 27%;
+    margin: 2rem;
     height: 650px;
+    
+}
+.sign-up-page{
+    height: 600px;
+    box-shadow: 0px 6px 9px 4px rgb(117 107 107 / 18%);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/istockphoto-1216089702-170667a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background {
+    min-height: 600px;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.562)
 }
 label {
     border: 1px solid  rgb(197,115,44);
-    border-radius: 10px;
-    padding: 5px 20px;
+    padding: 20px 40px 20px 40px;
     color: rgb(255, 255, 255);
     background-color: rgb(197, 115, 44);
-    /* box-shadow: 2px 2px 2px 2px gray; */
 }
 input {
+    width: 250px;
     border: 1px solid  rgb(201, 112, 34);
-    border-radius: 10px;
-    padding: 5px 10px 5px 20px;
+    padding: 20px 40px 20px 40px;
 }
 select {
+    width: 332px;
     border: 1px solid  rgb(201, 112, 34);
-    border-radius: 10px;
-    padding: 5px 10px 5px 20px;
+    padding: 20px 40px 20px 40px;
 }
 .labels {
+    display: flex;
+    justify-content: space-around;
+}
+.info-banner {
+    display: flex;
+    width: 800px;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.info-banner p {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+.labels h1{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+.labels1 h1 {
+    margin: auto;
     margin-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    row-gap: 1rem;
 }
 .labels1 {
     display: flex;
-    flex: 1;
+    flex-direction: row;
+    align-content: center;
     justify-content: space-between;
-    width: 100%;
-    margin-top: 10px;
-    font-size: small;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    column-gap: 2rem;
 }
-.sign-up-button {
+.sign-up-button button{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    padding: 15px 131px;
+}
+.view-profile-button {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+.sign-up-button a {
+    text-decoration: none;
 }
 .nav2 {
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: 0 0 4px 4px #8080803b;
 }
-.sign-in-button {
+.sign-in-button button{
     display: flex;
     justify-content: center;
+    padding: 20px 136px;
     margin-top: 30px;
 }
 .sign-in-content {
-    margin: auto;
-    width: 28%;
-    height: 650px;
+    padding:0rem 4rem;
+    margin:0 1rem; 
+    height: 600px;
+    box-shadow: 0px 6px 9px 4px rgb(117 107 107 / 18%);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
 }
 .user-info {
-    margin-top: 90px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
 }
 .create-button {
     display: flex;
-    margin-top: 30px;
     justify-content: center;
 }
 .create-account-content {
@@ -183,7 +250,10 @@ select {
     width: 28%;
 }
 .user-labels1 {
-    margin-top: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 .user-profile {
     display: flex;
@@ -206,16 +276,14 @@ select {
     flex-direction: column;
     margin-top: 50px;
     margin-left: 20px;
-    /* margin: 0px 20px; */
     font-size: 10px;
-    width: 20%;
+    width: 100px;
     font-weight: bold;
-    
 }
 .name-lines h3 {
     border: 1px solid rgb(197,115,44);
-    border-radius: 5px;
-    padding: 0px 2px;
+    padding: 2px 10px;
+    width: 100px;
     background-color: rgb(197,115,44);
     color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -236,23 +304,55 @@ select {
 .name-lines1 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 519px;
 }
 .name-lines2 {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     margin-left: 20px;
-    /* margin: 0px 20px; */
     font-size: 10px;
-    width: 50%;
+    width: 250px;
     font-weight: bold;
     
 }
 .name-lines2 h3 {
     border: 1px solid rgb(197,115,44);
-    border-radius: 5px;
-    padding: 0px 5px;
-    /* background-color: rgb(197,115,44); */
-    /* color: rgb(255, 255, 255); */
+    padding: 2px 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#history {
+    width: 700px;
+}
+#label1 {
+    width: 200px;
+}
+.labels3 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin-top: 10px;
+    font-size: small;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+td{
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+table{
+    border: 1px solid #990000;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table.th{
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+tr{
+    border: 1px solid #000000;
+    padding: 1rem .5rem;;
 }
