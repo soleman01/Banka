@@ -109,7 +109,7 @@ footer a {
 }
 .sign-up-content {
     margin: 2rem;
-    height: 650px;
+    height: 593px;
     
 }
 .sign-up-page{
@@ -154,14 +154,45 @@ select {
 }
 .info-banner p {
     color: rgb(255, 255, 255);
-    font-size: xx-large;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.admin-info-banner{
+    width: 733px;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
 .banner1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
+}
+.admin-page {
+    background-image: url(../img/fotolia_97176232_xs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.admin-welcome{
+    padding-top: 70px;
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+.admin-labels p{
+    margin-left: 100px
+}
+.admin-labels button{
+    margin-top: 0px !important;
+    margin-left: 100px
 }
 .labels h1{
     font-size: x-large;
@@ -173,7 +204,8 @@ select {
     margin: auto;
     margin-top: 50px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rg
+    b(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .sign-up-form {
@@ -355,4 +387,24 @@ table.th{
 tr{
     border: 1px solid #000000;
     padding: 1rem .5rem;;
+}
+.admin-dashboard {
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+.admin-button{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 80px;
+}
+.admin-button button {
+    display: flex;
+    margin: 0px 20px;
+    flex-direction: row;
+    padding: 17px 20px;
 }
