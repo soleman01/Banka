@@ -88,7 +88,6 @@ button {
     text-decoration: none;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(80, 79, 79);
-    margin: 0px 0px;
     cursor: pointer;
     padding: 20px 113px;
     font-size: larger;
@@ -241,11 +240,15 @@ select {
 .nav2 {
     box-shadow: 0 0 4px 4px #8080803b;
 }
-.sign-in-button button{
-    display: flex;
+.sign-in-button a{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 115, 44);
     justify-content: center;
-    padding: 20px 136px;
-    margin-top: 30px;
+    padding: 20px 117px;
 }
 .sign-in-content {
     padding:0rem 4rem;
@@ -262,9 +265,23 @@ select {
     align-items: center;
     row-gap: 2rem;
 }
+.create-button a{
+    padding: 20px 100px;
+    background-color: rgb(197, 115, 44);
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
 .create-button {
-    display: flex;
-    justify-content: center;
+    margin-top: 20px;
+}
+.create-account-button a{
+    text-align: center !important;
+    border-radius: 0px !important;
+    background-color: rgb(197, 115, 44) !important;
+    padding: 15px 105px !important;
 }
 .create-account-content {
     background-image: url(../img/Living-room.jpg);
@@ -430,7 +447,7 @@ tr td:hover {
 }
 tr {
     text-align: center;
-    color: black;
+    color: rgb(5, 5, 5);
     font-style: normal;
     cursor: pointer;
 }
@@ -448,4 +465,28 @@ table{
 .table-head{
     font-weight: bold;
     background-color: grey;
+}
+#admin-create-account{
+    margin-left: 600px;
+}
+form{
+    margin: auto;
+}
+.admin-create-account-form{
+    width: 1000px;
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 5px 5px rgb(207, 204, 204);
+}
+.create-account-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+#footer{
+    margin-top: 5px;
+}
+.admin-content{
+    margin-top: 40px;
+    margin-left: 300px;
 }
