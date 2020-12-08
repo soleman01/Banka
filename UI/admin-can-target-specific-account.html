@@ -16,9 +16,6 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="admin.html">Admin</a></li>
-                <li><a href="user-create-account.html">Create Account</a></li>
-                <li><a href="sign-up.html">Sign-Up</a></li>
-                <li><a href="sign-in.html">Sign-In</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </div>
@@ -26,43 +23,43 @@
 </header>
 <body>
     <section class="sign-up-content">
-        <div class="admin-page">
-            <div class="background">
+        <div class="">
+            <div class="container">
                 <div class="admin-target-labels">
+                    <div class="admin-button">
+                        <div>
+                            <a href="">Create Accounts</a>
+                        </div>
+                        <div>
+                            <a href="all-user-accounts.html">View User Accounts</a>
+                        </div>
+                        <div>
+                            <a href="admin-can-target-specific-account.html">View Specific User Account</a>
+                        </div>
+                    </div>
                     <div class="tableContainer">
-                        <table class="account-status-table" cellspacing="" rules="all" style="height: 128px; width:100%; border: 1px solid rgb(202, 118, 45); border-collapse: collapse;">
+                        <table class="account-status-table" rules="all">
                             <tbody>
-                                <tr align="center" valign="middle" style="color: rgb(255, 255, 255); background-color: grey; font-weight: bold; font-style: normal; text-decoration: none;">
-                                    <td align="center" valign="middle" style="font-weight:bold;font-style:normal;text-decoration:none;">Account Number</td>
+                                <tr class="table-head">
+                                    <td>Account Number</td>
                                     <td>Account Name</td>
-                                    <td align="center" style="font-weight:bold;font-style:normal;text-decoration:none;">Account Type</td>
-                                    <td align="center">Currency</td>
+                                    <td>Account Type</td>
+                                    <td>Currency</td>
                                     <td>Account Status</td>
                                     <td>Book Balance</td>
                                     <td>Balance</td>
                                 </tr>
-                                <tr align="center" style="color:white; font-weight: normal; font-style: normal; text-decoration: none; cursor: pointer;">
-                                    <td align="center" style="font-style:normal; text-decoration:none;">0123456789</td>
-                                    <td align="center" style="font-weight: normal; font-style: normal; text-decoration: none;">Obinna Akin Ahmed</td>
+                                <tr>
+                                    <td>0123456789</td>
+                                    <td>Obinna Akin Ahmed</td>
                                     <td>Current Account</td>
                                     <td>Naira</td>
                                     <td>Active</td>
                                     <td>1,000,100.54</td>
                                     <td>560,135.33</td>
                                 </tr>
-                                <tr align="center" style="color:white; font-weight: normal; font-style: normal; text-decoration: none; cursor: pointer;">
-                                    <td align="center" style="font-style:normal; text-decoration:none;">0123456789</td>
-                                    <td align="center" style="font-weight: normal; font-style: normal; text-decoration: none;">Azuka Ibukun Amina</td>
-                                    <td>Savings Account</td>
-                                    <td>USD</td>
-                                    <td>Active</td>
-                                    <td>700,100.54</td>
-                                    <td>260,135.33</td>
-                                </tr>
-                                <tr></tr>
                             </tbody>
                         </table>
-                        
                     </div>
                 </div>
             </div>       
@@ -74,5 +71,6 @@
             <a href="index.html"><h3>Banka-&copy; 2020</h3></a>
         </footer>
     </section>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

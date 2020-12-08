@@ -33,20 +33,21 @@
                         <div class="banner1">For Effortless Banking, Use BANKA</div>
                         <p>With Banka, social and emotional connections become way more possible because we're all empowered financially to reach our collective goals while expressing ourselves joyfully.</p>
                     </div>
-                    <div class="sign-up-form">
+                    <form class="sign-up-form">
                         <div class="labels">
                             <h1>Welcome</h1>
                         </div>
                         <div class="labels1">
-                            <input type="text" placeholder="Enter your username">
+                            <input type="text" id="username" placeholder="Enter your username" required>
                         </div>
                         <div class="labels1">
-                            <input type="password" placeholder="Enter your password">
+                            <input type="password" id="password" placeholder="Enter your password" required>
                         </div>
+                        <p id="result"></p>
                         <div class="sign-in-button">
-                            <a href=""><button>Sign-In</button></a>
+                            <a href=""></a><button>Sign-In</button>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>       
         </div>
@@ -57,5 +58,6 @@
             <a href="index.html"><h3>Banka-&copy; 2020</h3></a>
         </footer>
     </section>
+    <script src="./assets/js/script.sign-in.js"></script>
 </body>
 </html>
